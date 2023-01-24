@@ -21,7 +21,7 @@ export default function Layout({ children }: LayoutProps ){
 
     return (
         <>
-            <Seo title={titles[router.pathname]} />
+            {/* <Seo title={titles[router.pathname]} /> */}
             <NavBar />
             <div>{children}</div>
             <style jsx global>{`
